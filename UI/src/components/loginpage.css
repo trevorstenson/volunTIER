@@ -1,0 +1,40 @@
+.modal-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.inner {
+    margin: 15px;
+}
+
+.box-layout {
+    align-items: center;
+    background-color: dark-grey;
+    /*background-image: url('/images/bg.jpg');*/
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box-layout__box {
+     border-radius: 3px;
+     padding: 10px;
+     text-align: center;
+     width: 35rem;
+ }
+
+.box-layout__title {
+     line-height: 1;
+     margin: 0 0 0 0;
+ }
+
+.box-layout__buttons {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
